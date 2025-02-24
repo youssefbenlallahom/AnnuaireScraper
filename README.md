@@ -6,7 +6,7 @@ Welcome to the Web Scraping Project! This project is a powerful web scraper buil
 
 📦 Project Structure
 
-hack_spider.py — The core scraper containing four main spiders:
+hack_spider.py —> The core scraper containing four main spiders:
 
 DepartementsSpider: Collects links for all departments.
 
@@ -16,17 +16,17 @@ ActivitySpider: Scrapes activity names and their associated links.
 
 FournisseurSpider: Extracts company data and saves them to CSV.
 
-departements.txt — Stores department names and their URLs.
+departements.txt —> Stores department names and their URLs.
 
-departements_links.txt — Contains activity links associated with each department.
+departements_links.txt —> Contains activity links associated with each department.
 
-activity.txt — Lists activity names and links.
+activity.txt —> Lists activity names and links.
 
-company_links.txt — Holds company URLs for further scraping.
+company_links.txt —> Holds company URLs for further scraping.
 
-output.csv — Final scraped data.
+output.csv —> Final scraped data.
 
-failed_urls.csv — Tracks URLs that failed during scraping.
+failed_urls.csv —> Tracks URLs that failed during scraping.
 
 📜 How to Use
 
